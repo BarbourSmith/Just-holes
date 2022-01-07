@@ -8,40 +8,284 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.14087301587301587,
-            "y": 0.5801282051282051,
-            "uniqueID": 765075,
-            "ioValues": [
+            "atomType": "Molecule",
+            "name": "Group 1",
+            "x": 0.18783068783068782,
+            "y": 0.30128205128205127,
+            "uniqueID": 444085,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
                 {
-                    "name": "diameter",
-                    "ioValue": 10
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.07936507936507936,
+                    "y": 0.3108974358974359,
+                    "uniqueID": 127980,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6.27
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.25462962962962965,
+                    "y": 0.20833333333333334,
+                    "uniqueID": 392945,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/528073/444085/127980Circle"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 24
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.2612433862433862,
+                    "y": 0.40384615384615385,
+                    "uniqueID": 806209,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/528073/444085/625410Circle"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 16
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1349206349206349,
+                    "y": 0.516025641025641,
+                    "uniqueID": 625410,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6.28
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.3082010582010582,
+                    "y": 0.5416666666666666,
+                    "uniqueID": 532227,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/528073/444085/203115Circle"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.46494708994708994,
+                    "y": 0.45833333333333337,
+                    "uniqueID": 568533,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10515873015873016,
+                    "y": 0.6762820512820513,
+                    "uniqueID": 203115,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6.29
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.35714285714285715,
+                    "y": 0.7467948717948718,
+                    "uniqueID": 550803,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/528073/444085/605381Circle"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.13690476190476192,
+                    "y": 0.8525641025641026,
+                    "uniqueID": 605381,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6.3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9867724867724867,
+                    "y": 0.5,
+                    "uniqueID": 258362,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/528073/444085/568533Assembly"
+                        }
+                    ]
                 }
-            ]
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 127980,
+                    "ap2ID": 392945
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 392945,
+                    "ap2ID": 568533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 806209,
+                    "ap2ID": 568533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 625410,
+                    "ap2ID": 806209
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 532227,
+                    "ap2ID": 568533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 568533,
+                    "ap2ID": 258362
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 203115,
+                    "ap2ID": 532227
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 550803,
+                    "ap2ID": 568533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 605381,
+                    "ap2ID": 550803
+                }
+            ],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.26653439153439157,
-            "y": 0.5673076923076923,
-            "uniqueID": 230255,
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4404761904761905,
+            "y": 0.3141025641025641,
+            "uniqueID": 970905,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": "source/528073/765075Circle"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
+                    "name": "3D shape 1",
+                    "ioValue": 10
                 }
             ]
         },
@@ -51,28 +295,16 @@
             "x": 0.9867724867724867,
             "y": 0.5,
             "uniqueID": 509779,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "source/528073/230255Move"
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 765075,
-            "ap2ID": 230255
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
             "ap2Primary": false,
-            "ap1ID": 230255,
-            "ap2ID": 509779
+            "ap1ID": 444085,
+            "ap2ID": 970905
         }
     ],
     "fileTypeVersion": 1,
